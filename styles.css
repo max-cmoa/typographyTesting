@@ -1,0 +1,33 @@
+p {
+ 
+    display:block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+    font-family: Arial, sans-serif;
+    font-kerning: auto;
+    font-size: max(8px, 24px);
+    /* font-size: max(21px, 2rem); */
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    font-smooth: auto;
+    
+    letter-spacing: -0.0025em;
+    line-height: 1.125;
+
+    tab-size: 4; /* customize the width of tab characters */
+
+    widows: 3; /* left alone at the beginning */
+    orphans: 3; /* left alone at the end */
+
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    hyphenate-limit-chars: 6 3 2;
+    hyphenate-limit-lines: 2;
+    hyphenate-limit-last: always;
+    hyphenate-limit-zone: 8%;
+
+
+}
